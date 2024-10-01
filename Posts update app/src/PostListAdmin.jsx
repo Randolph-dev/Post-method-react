@@ -9,7 +9,7 @@ const PostListAdmin = () => {
         axios.get('http://localhost:3002/posts')
         .then((response) => setPosts(response.data))
         .catch((error) => console.error('Error fetching posts:', error));
-    }, 100);
+    }, 1000);
 
     return () => clearInterval(interval);  
     }, []);

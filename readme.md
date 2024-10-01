@@ -12,8 +12,14 @@ This working version includes:
 - A **regular user flow** where anyone can toggle the publish status between true and false.
 - A **login flow for admins** where they can log in and view the real-time changes being saved in the backend JSON file.
 - The frontend is running with **React**, and the backend uses **Express** to manage the `db.json` file where the post data is stored and updated.
+- Users can login as admin to verify the data changes on the backend.
+
 
 The final setup ensures that both the **user requirement** (toggling publish status) and the **developer requirement** (saving changes to `db.json`) are fully met.
 
 ## Instructions to run Admin view
 Login with 'admin' as username, and 'password' as password.
+
+
+![Screenshot User UI](./Posts%20update%20app/images/User%20UI.png)
+![Screenshot Admin UI](./Posts%20update%20app/images/Admin%20UI.png)

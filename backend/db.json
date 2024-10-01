@@ -13,7 +13,7 @@
       "title": "Second Post",
       "author": "Jane Smith",
       "content": "This is the second post content.",
-      "published": false,
+      "published": true,
       "date": "2024-05-11"
     },
     {
@@ -21,7 +21,7 @@
       "title": "Third Post",
       "author": "Alice Johnson",
       "content": "This is the third post content.",
-      "published": false,
+      "published": true,
       "date": "2024-05-12"
     }
   ]
